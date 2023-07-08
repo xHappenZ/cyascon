@@ -83,6 +83,15 @@ Files
 
   * `setupAead`:
     The setup file to create a python module for Ascon hashing.
+    
+  * `ascon_permutations.c`:
+    Contains the C implementation of the permutations.
+    
+  * `ascon_buffering.c`:
+    Contains the implementation of the buffering, necessary for the streaming mode.
+    
+  * `ascon.h`, `ascon_internal.h`
+    Header files for the C implementation.
 
 
 Command for the setup of the Python module: `python3 setup.py build_ext --inplace`
